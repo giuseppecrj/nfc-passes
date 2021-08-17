@@ -1,0 +1,22 @@
+{
+  "name": "nfc-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@activetheory/eslint-config": "^1.3.2",
+    "nfc-pcsc": "^0.8.1"
+  },
+  "eslintConfig": {
+    "extends": "@activetheory/eslint-config",
+    "rules": {
+      "no-unused-expressions": "off"
+    }
+  }
+}
